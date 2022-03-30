@@ -1,0 +1,41 @@
+body{
+    margin: 10;
+    font-family: Arial;
+}
+
+.row
+{
+    display: flex;
+}
+
+.main-content
+{
+    width:50%;
+    height: 50%;
+    background: #ebebeb;
+    padding: 30px;
+}
+
+.wrapper{
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+}
+.form-row{
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+.form-row > label{
+    flex: 2;
+}
+.flex-roew > input,
+.form-row > button{
+    padding: .5rem;
+}
+.form-row > button{
+    background: grey;
+    color: white;
+    border: 0;
+}
