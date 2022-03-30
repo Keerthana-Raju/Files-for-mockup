@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial
+}
+.sidebar
+{
+    width: 10%;
+    background: rgb(182, 181, 181);
+    padding: 15px;
+}
+
+.main-content
+{
+    width: 80%;
+    background: #ebebeb;
+    padding: 30px;
+}
+li a:hover{
+    display:block;
+    background-color: rgb(216, 194, 163);
+    color:white;
+}
+li a{
+        display:block;
+        color:white;
+        font-size: 20px;
+        text-align: 20px;
+        padding: 2px 2px;
+        text-decoration: none;
+}
+.profile
+{
+    width: 100%;
+    display:flex;
+}
+.justify-content-end{
+    justify-content: flex-end
+}
+
+.align-items-center
+{
+    align-items: center;
+}
